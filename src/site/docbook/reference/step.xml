@@ -333,7 +333,7 @@ itemWriter.write(items);</programlisting>
         &lt;/tasklet&gt;
     &lt;/step&gt;
     &lt;step id="playerSummarization"&gt;
-        &lt;tasklet start-limit="3"&gt;
+        &lt;tasklet start-limit="2"&gt;
             &lt;chunk reader="playerSummarizationSource" writer="summaryWriter"
                    commit-interval="10"/&gt;
         &lt;/tasklet&gt;
